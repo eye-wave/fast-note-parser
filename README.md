@@ -11,15 +11,15 @@ those are the results for:
  - @tonaljs/midi
 
 ```
-my-parser: [MIN] 6.03 ms
-my-parser: [MAX] 25.08 ms
-my-parser: [AVG] 16.87 ms
+my-parser: [MIN] 5.63 ms
+my-parser: [MAX] 25.37 ms
+my-parser: [AVG] 15.82 ms
 
-note-parser: [MIN] 57.01 ms
-note-parser: [MAX] 394.54 ms
-note-parser: [AVG] 332.88 ms
+note-parser: [MIN] 55.59 ms
+note-parser: [MAX] 421.14 ms
+note-parser: [AVG] 310.76 ms
 
-tonal-midi: [MIN] 141.97 ms
-tonal-midi: [MAX] 158.73 ms
-tonal-midi: [AVG] 148.98 ms
+tonal-midi: [MIN] 140.65 ms
+tonal-midi: [MAX] 176.28 ms
+tonal-midi: [AVG] 150.44 ms
 ```
