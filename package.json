@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "NODE_ENV=production node esbuild.config.js",
+    "types": "tsc --emitDeclarationOnly",
+    "dev": "bun esbuild.config.js",
+    "format": "rome format . --write",
+    "lint": "rome check .",
+    "test": "node test/index.test.js"
+  },
+  "devDependencies": {
+    "@tonaljs/midi": "^4.9.0",
+    "@types/node": "^20.5.9",
+    "esbuild": "^0.19.2",
+    "note-parser": "^2.0.1",
+    "rome": "^12.1.3"
+  }
+}
